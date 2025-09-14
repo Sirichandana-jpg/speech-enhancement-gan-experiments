@@ -19,3 +19,5 @@ It is based on an earlier implementation, with *modifications and improvements*,
 git clone https://github.com/<Sirichandana-jpg>/<speech-enhancement-gan-experiments>.git
 cd <speech-enhancement-gan-experiments>
 
+# 2️⃣ Install Dependencies
+pip install -r requirements.txt
