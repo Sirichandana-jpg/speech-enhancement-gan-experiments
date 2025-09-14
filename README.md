@@ -1,20 +1,32 @@
-# Speech Enhancement using GAN — Experiments
+# 🎤 Speech Enhancement GAN 
 
-This repository contains my experiments with Generative Adversarial Networks (GANs) for speech enhancement.  
-It has been developed and further modified based on publicly available open-source work.
+![Banner](assets/banner.png)  
+A GAN-based approach for enhancing speech from noisy audio.
 
-## Features / Contributions
-- Training and validation setup for GAN-based speech enhancement.
-- Experimented with different hyperparameters and training settings.
-- Added evaluation metrics and plots.
-- Organized notebook for easier understanding and reproducibility.
+---
 
-## How to Run
-1. Clone this repository:
-   git clone https://github.com/Sirichandana-jpg/speech-enhancement-gan-experiments
-2.INSTALL dependencies:
-   pip install -r requirements.txt
-3.Launch the notebook:
-  jupyter notebook Explicit_GAN.ipynb
-## License
-This project is licensed under the Apache License 2.0 -see the [LICENSE] file for details
+## 🔹 About
+This project is a *GAN-based model for speech enhancement*, trained to remove noise from audio signals.  
+
+It is based on an earlier implementation, with *modifications and improvements*, including:
+- Updated training pipeline
+- Cleaned dataset handling
+- Additional documentation
+- Dual licensing for clarity
+
+---
+
+## 📊 Example Workflow
+
+| Noisy Speech | Clean Speech | Enhanced Speech |
+|--------------|--------------|-----------------|
+| ![Noisy](assets/noisy_wave.png) | ![Clean](assets/clean_wave.png) | ![Enhanced](assets/enhanced_wave.png) |
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Sirichandana-jpg/speech-enhancement-gan-experiments.git
+cd <speech-enhancement-gan-experiments>
