@@ -1,0 +1,49 @@
+# Python cache
+_pycache_/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# Logs and outputs
+*.log
+*.out
+*.err
+
+# Data files (optional, if you have large datasets keep them out of git)
+*.csv
+*.tsv
+*.h5
+*.npy
+*.npz
+*.mat
+*.pkl
+*.wav
+
+# Model weights / checkpoints
+*.ckpt
+*.pt
+*.pth
+*.pb
+*.tflite
+*.onnx
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
