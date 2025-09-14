@@ -1,5 +1,5 @@
+Markdown
 # 🎤 Speech Enhancement GAN 
-
 A GAN-based approach for enhancing speech from noisy audio.
 
 ---
@@ -13,33 +13,23 @@ It is based on an earlier implementation, with *modifications and improvements*,
 - Additional documentation
 - Dual licensing for clarity
 
----
-
-## 📊 Example Workflow
-
-| Noisy Speech | Clean Speech | Enhanced Speech |
-|--------------|--------------|-----------------|
-| ![Noisy](assets/noisy_wave.png) | ![Clean](assets/clean_wave.png) | ![Enhanced](assets/enhanced_wave.png) |
-
----
-
 ## 🚀 Getting Started
 
-### 1️⃣ Clone the Repository
+### <span style="color:blue">2️⃣ Clone the Repository</span>
 ```bash
-git clone https://github.com/Sirichandana-jpg/speech-enhancement-gan-experiments.git
+git clone https://github.com/<Sirichandana-jpg>/<speech-enhancement-gan-experiments>.git
 cd <speech-enhancement-gan-experiments>
-
-### 2️⃣ Install Dependencies
-```bash
+3️⃣ Install Dependencies
+Bash
 pip install -r requirements.txt
-
-### 3️⃣ Train the Model
-```bash
+4️⃣ Train the Model
+Bash
 python train.py --dataset data/noisy --clean data/clean
-
-### 4️⃣ Test the Model
-```bash
-python test.py --input data/test_noisy
+📜 License
+Original base code: Licensed under the MIT License (see ORIGINAL_LICENSE)
+Modifications (2025): Licensed under the Apache License 2.0 (see LICENSE)
+🙌 Credits
+Original implementation inspiration from a prior repo
+Modified & maintained by Sirichandana (2025)
 
 
