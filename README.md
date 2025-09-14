@@ -1,6 +1,5 @@
 # 🎤 Speech Enhancement GAN 
 
-![Banner](assets/banner.png)  
 A GAN-based approach for enhancing speech from noisy audio.
 
 ---
