@@ -3,7 +3,7 @@
 A GAN-based approach for enhancing speech from noisy audio.
 
 ---
-
+ 
 ## 🔹 About
 This project is a *GAN-based model for speech enhancement*, trained to remove noise from audio signals.  
 
